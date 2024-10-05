@@ -17,7 +17,7 @@ export default function Document () {
 				<meta property="og:title" content="Quizi" />
 				<meta property="og:type" content="website" />
 				<meta property="og:image" content="https://repository-images.githubusercontent.com/593410779/0555ac47-4bd6-49a9-8869-5b1ec84a58f6" />
-				<meta property="og:url" content="https://quizi.vercel.app" />
+				<meta property="og:url" content="https://quiz.game.systemtech.vercel.app" />
 				<meta property="og:description" content="Quizi is a quiz/trivia game with questions made by IA. You can select different game modes and topics, you can also use different wildcards to help you answer the questions." />
 
 				{/* <!-- Twitter --> */}
