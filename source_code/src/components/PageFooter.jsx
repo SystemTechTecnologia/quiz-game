@@ -45,7 +45,7 @@ export default function Footer ({ alert = false }) {
 							{
 								alert
 									? 'The questions made by AI may have errors. \nOnly some questions are made by IA'
-									: <span><a href="https://github.com/cosmoart/quiz-game" target="_blank" rel="noopener noreferrer" className={`bg-slate-200 px-1 rounded ${showInfo ? '' : 'hidden'}`}><BsFillStarFill className='inline-block mb-1' color='#e3b341' /> Star</a> - Made with ❤️ by <a href="https://github.com/cosmoart" target="_blank" rel="noreferrer" className={`underline ${showInfo ? '' : 'hidden'}`}>Cosmo</a></span>
+									: <span><a href="" target="_blank" rel="noopener noreferrer" className={`bg-slate-200 px-1 rounded ${showInfo ? '' : 'hidden'}`}><BsFillStarFill className='inline-block mb-1' color='#e3b341' /> Star</a> - Made with ❤️ by <a href="" target="_blank" rel="noreferrer" className={`underline ${showInfo ? '' : 'hidden'}`}>alml</a></span>
 							}
 						</p>
 					</li>
