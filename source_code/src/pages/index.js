@@ -3,6 +3,7 @@ import MainHome from '@/components/Home/MainHome'
 import GameModes from '@/components/Home/GameModes'
 import Categories from '@/components/Home/Categories'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function Main () {
 	useEffect(() => { window.onbeforeunload = () => null }, [])
@@ -12,6 +13,7 @@ export default function Main () {
 			<Head>
 				<title>Quizi</title>
 			</Head>
+			<Analytics/>
 			<MainHome />
 			<GameModes />
 			<Categories />
